@@ -28,6 +28,10 @@ public class Runner {
 			System.out.println("Shirt have 1 Pockets");
 		}
 		
+		for(Material material : Material.values()) {
+			System.out.println(material);
+		}
+		
 		
 		
 		

@@ -67,7 +67,7 @@ public class Repository {
 		if (name != null) {
 			if (!name.isEmpty()) {
 				if (name.length() > 3 && name.length() < 12) {
-					return false;
+					return true;
 				}
 			}
 		}
@@ -79,10 +79,14 @@ public class Repository {
 			for (int i = 0; i < names.length; i++) {
 				if (name.equals(names[i])) {
 					names[i] = null;
+					System.out.println("Name Deleted");
 					return true;
 				}
 			}
+			System.out.println("Name Not found");
+			return false;
 		}
+		System.out.println("Name Invalid");
 		return false;
 	}
 

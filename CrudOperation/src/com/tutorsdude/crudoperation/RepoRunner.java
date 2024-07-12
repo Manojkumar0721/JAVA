@@ -18,7 +18,15 @@ public class RepoRunner {
 		repo.saveName("Sudarshan");
 		repo.saveName("Basavaraj");
 		repo.saveName("Siddu");
-
-	}
+		
+		repo.update("Manu", "ManojKumar");
+		repo.readName();
+		System.out.println("-------------------------------");
+		repo.delete("Siddu");
+		repo.readName();
+		
+		repo.saveName("Krishna");
+		repo.readName();
+ 	}
 
 }

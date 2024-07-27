@@ -1,13 +1,13 @@
 package com.tutorsdude.collectionclass;
 
-public class Rooms {
+public class Room {
 
 	private int roomNumber;
 	private String roomType;
 	private int price;
 	private String status;
 
-	public Rooms(int roomNumber, String roomType, int price, String status) {
+	public Room(int roomNumber, String roomType, int price, String status) {
 		super();
 		this.roomNumber = roomNumber;
 		this.roomType = roomType;
@@ -49,7 +49,7 @@ public class Rooms {
 
 	@Override
 	public String toString() {
-		return "Rooms [roomNumber=" + roomNumber + ", roomType=" + roomType + ", price=" + price + ", status=" + status
+		return "Room [roomNumber=" + roomNumber + ", roomType=" + roomType + ", price=" + price + ", status=" + status
 				+ "]";
 	}
 

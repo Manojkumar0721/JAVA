@@ -1,0 +1,5 @@
+com\tutorsdude\spring\service\Service.class
+com\tutorsdude\spring\config\AppConfig.class
+com\tutorsdude\spring\service\Repo.class
+com\tutorsdude\spring\service\Utils.class
+com\tutorsdude\spring\SpringRunner.class

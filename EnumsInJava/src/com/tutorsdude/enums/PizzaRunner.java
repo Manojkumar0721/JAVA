@@ -25,6 +25,11 @@ public class PizzaRunner {
 			System.out.println("Size is ExtraLarge");
 		}
 		
+		if(pizza2.slices.slicesOfPizza==10) {
+			System.out.println("10 Slices are in one pizza");
+		}
+		
+		
 		Slices slices = Slices.TEN;
 		
 		switch(slices) {
@@ -41,6 +46,7 @@ public class PizzaRunner {
 			System.out.println("Ten slices");
 			break;
 		}
+		
 		
 
 	}
